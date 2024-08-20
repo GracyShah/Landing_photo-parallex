@@ -1,0 +1,184 @@
+
+.first{
+    height: 120vh;
+    width: 100%;
+    background-image: url(boy.webp);
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgba(240,248,255,10%) ;
+}
+
+#ieva{
+    margin-left: 0.5em;
+    margin-top: 0.1em;
+    padding: 5px 7px 5px 7px;
+    border-radius: 10%;
+    display: inline-block;
+    font: 2em 'Brush Script MT',cursive;
+}
+
+#navIcons{
+    width: 35rem;
+    padding-left: 4em;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 0.5px 0.5px rgb(226, 108, 108,50%);
+}
+
+a{
+    margin-top: 0.6em;
+    padding: 7px 7px 5px 7px;
+    border-radius: 10%;
+    color: #efecec;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+#navIcons a:hover{
+    background-color: rgba(240,248,255,30%);
+    color:#555555 ;
+}
+
+.title{
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #efecec;
+    background-color:rgba(240,248,255,3%) ;
+}
+
+.title h1{
+    font: 3.3rem serif;
+    text-shadow: 2px 2px rgb(226, 108, 108,60%);
+    line-height: 0.1px;
+    padding: 0.2ex 0; 
+    
+}
+
+.title p{
+    font: 4em 'Brush Script MT',cursive;
+    text-shadow: 2px 2px rgb(226, 108, 108,50%);
+    margin-top: -7px;
+}
+
+.title2{
+    display: flex;
+    height: 23vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e7dfdfbd;
+    background-color:rgba(2, 23, 38, 0.902) ;
+}
+
+.title2 p{
+    font: 1.2em serif;
+    padding: 0 0.2em 0 1em;
+}
+.second{
+    height: 90vh;
+    width: 100%;
+    background-image: url(mem.jpg);
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title3,.title4{
+    display: flex;
+    height: 23vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e7dfdfbd;
+    background-color:rgba(2, 23, 38, 0.902) ;
+}
+
+.title3,.title4 h1{
+    margin-top: -0.5em;
+}
+.title3 h4{
+    font: 2em 'Brush Script MT',cursive;
+    padding-left: 3.5em;
+    margin-top: -1.2em;
+}
+.title3 p{
+    margin-top:-2em ;
+}
+
+.third{
+    height: 95vh;
+    width: 100%;
+    background-image: url(momt.jpg);
+    background-size: cover;
+    opacity: 0.9;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.t4{
+    background-image: url(momt.jpg);
+}
+
+.title4 h4{
+    font: 2em 'Brush Script MT',cursive;
+    padding-left: 3.5em;
+    margin-top: -1.2em;
+}
+.title4 p{
+    margin-top:-2.1em ;
+}
+
+.portfolio{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(2, 23, 38, 0.902) ;
+}
+
+#pic1{
+    background-image: url(pic1.jpg);
+    background-size: cover;
+    width: 32vw;
+    border-radius: 10%;
+}
+
+#pic2{
+    background-image: url(pic2.jpg);
+    background-size: cover;
+    width: 32vw;
+    border-radius: 10%;
+}
+
+#pic3{
+    background-image: url(pic3.jpg);
+    background-size: cover;
+    width: 32vw;
+    border-radius: 10%;
+}
+.secLast{
+    display: flex;
+    justify-content: space-evenly;
+    height: 3vh;
+    background-color:rgba(2, 23, 38, 0.902) ;
+    color: #e7dfdfbd;
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(2, 23, 38, 0.902) ;
+    color: #e7dfdfbd;
+    padding-bottom: 1.2em;
+}
